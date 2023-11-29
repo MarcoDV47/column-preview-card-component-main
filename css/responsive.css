@@ -1,6 +1,7 @@
 @media (max-width: 768px) {
     main {
         height: auto;
+        width: auto;
     }
     .container {
         grid-template: repeat(3, 1fr) / 1fr;
@@ -9,7 +10,7 @@
             "b"
             "c";
         padding: 2em;
-        margin: 1em 0;
+        margin: 1em -0.5em;
 
     }
 

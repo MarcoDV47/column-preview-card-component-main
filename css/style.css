@@ -13,6 +13,7 @@ main {
     grid-template-areas:
         "a b c"
         "a b c";
+        margin: 0 1.5em;
 }
 
 .card {
