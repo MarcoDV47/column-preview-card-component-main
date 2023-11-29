@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    main {
+        height: auto;
+    }
+    .container {
+        grid-template: repeat(3, 1fr) / 1fr;
+        grid-template-areas:
+            "a"
+            "b"
+            "c";
+        padding: 2em;
+        margin: 1em 0;
+
+    }
+
+    .card.sedans {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .card.luxury {
+        border-radius: 0 0 8px 8px;
+    }
+    .card p{
+        margin-bottom: 2em;
+    }
+}
